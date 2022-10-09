@@ -1,0 +1,45 @@
+name: dio_getx_api
+description: A new Dio_GetX_API Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  get: ^4.6.5
+  responsive_builder: ^0.4.3
+  get_storage: ^2.0.3
+  flutter_svg: ^1.1.5
+  form_builder_validators: ^8.3.0
+  flutter_form_builder: ^7.6.0
+  introduction_screen: ^3.0.2
+  google_fonts: ^3.0.1
+  dio: ^4.0.6
+  hive: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+  device_preview:
+    git:
+      url: https://github.com/monkeydaichan/flutter_device_preview.git
+      path: device_preview
+      ref: master
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
