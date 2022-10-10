@@ -19,11 +19,12 @@ dependencies:
   get_storage: ^2.0.3
   flutter_svg: ^1.1.5
   form_builder_validators: ^8.3.0
-  flutter_form_builder: ^7.6.0
+  flutter_form_builder: ^7.7.0
   introduction_screen: ^3.0.2
   google_fonts: ^3.0.1
   dio: ^4.0.6
   hive: ^2.2.3
+  lottie: ^1.4.3
 
 dev_dependencies:
   flutter_test:
