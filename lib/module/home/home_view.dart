@@ -9,6 +9,7 @@ import 'home_logic.dart';
 class HomePage extends GetView<HomeLogic> {
   const HomePage({Key? key}) : super(key: key);
 
+
   @override
   Widget build(BuildContext context) {
     Get.find<HomeLogic>();

@@ -1,29 +1,29 @@
-class PostModel {
-  late final int id;
-  late final String title;
-  late final double price;
-  late final String description;
-  late final String category;
-  late final String image;
-
-  PostModel({
-    required this.id,
-    required this.title,
-    required this.price,
-    required this.description,
-    required this.category,
-    required this.image,
-  });
-
-  PostModel.fromJson(Map<String, dynamic> json) {
-    id = json['id'];
-    title = json['title'];
-    price = json['price'];
-    description = json['description'];
-    category = json['category'];
-    image = json['image'];
-  }
-}
+// class PostModel {
+//   late final int id;
+//   late final String title;
+//   late final double price;
+//   late final String description;
+//   late final String category;
+//   late final String image;
+//
+//   PostModel({
+//     required this.id,
+//     required this.title,
+//     required this.price,
+//     required this.description,
+//     required this.category,
+//     required this.image,
+//   });
+//
+//   PostModel.fromJson(Map<String, dynamic> json) {
+//     id = json['id'];
+//     title = json['title'];
+//     price = json['price'];
+//     description = json['description'];
+//     category = json['category'];
+//     image = json['image'];
+//   }
+// }
 
 /*{id: 1,
 title: "Ravelling - Fold sack No. 1 Backpack, Fits 15 Laptops",
@@ -34,7 +34,7 @@ image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
 rating: {rate: 3.9, count: 120}
 }*/
 
-/*class PostModel{
+class PostModel{
 late final int userId;
 late final int id;
 late final String title;
@@ -53,4 +53,4 @@ PostModel.fromJson(Map<String, dynamic>json){
   title = json['title'];
   body = json['body'];
 }
-}*/
+}

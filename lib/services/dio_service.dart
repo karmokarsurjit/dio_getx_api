@@ -1,8 +1,7 @@
-
-//import 'dart:developer';
-
 import 'package:dio/dio.dart';
+//import 'package:dio_getx_api/module/home/home_logic.dart';
 import 'package:flutter/foundation.dart';
+//import 'package:get/get.dart';
 
 class DioService {
   Future<dynamic> getMethod(String url) async {
@@ -10,7 +9,7 @@ class DioService {
     return await dio
         .get(
       url,
-      options: Options(responseType: ResponseType.json, method: "GET",receiveDataWhenStatusError: true),
+      options: Options(responseType: ResponseType.json, method: "GET",),
     )
         .then((response) {
       if (kDebugMode) {
@@ -20,6 +19,7 @@ class DioService {
       // if (kDebugMode) {
       //   print(response);
       // }
+      //HomeLogic.isLoading = false.obs;
       return response;
     });
   }
